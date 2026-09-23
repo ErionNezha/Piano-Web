@@ -1,0 +1,44 @@
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<!-- Piano origjinal: Engineer Elhamuddin Taheri — demo e përshtatur nga Erion Nezha -->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piano — Demo</title>
+<link rel='stylesheet' type="text/css" href='piano.css'>
+<style>
+.hint{text-align:center;color:#cfc9b8;font-family:'Segoe UI',system-ui,sans-serif;margin-top:14px;font-size:.9rem}
+.hint kbd{background:#3a382e;border:1px solid #55524a;border-radius:4px;padding:1px 7px;font-family:monospace}
+footer{text-align:center;padding:14px;color:#a49e8c;font-size:.82rem;font-family:'Segoe UI',system-ui,sans-serif}
+footer strong{color:#d8d2c0}
+</style>
+</head>
+<body>
+<div class='container'>
+
+    <div class='heading'>
+        <p id='text'>Classic Piano</p>
+    </div>
+
+    <div class='keys'>
+        <div class="key keyWhite" id="k1" data-k="a"></div>
+        <div class="key keyBlack" id="k2" data-k="w"></div>
+        <div class="key keyWhite" id="k3" data-k="s"></div>
+        <div class="key keyBlack" id="k4" data-k="e"></div>
+        <div class="key keyWhite" id="k5" data-k="d"></div>
+        <div class="key keyBlack" id="k6" data-k="t"></div>
+        <div class="key keyWhite" id="k7" data-k="f"></div>
+        <div class="key keyBlack" id="k8" data-k="y"></div>
+        <div class="key keyWhite" id="k9" data-k="g"></div>
+        <div class="key keyBlack" id="k10" data-k="u"></div>
+        <div class="key keyWhite" id="k11" data-k="h"></div>
+    </div>
+
+<script src='piano.js'></script>
+
+</div>
+<p class="hint">💡 Kliko tastet me miun, ose luaj me tastierë: <kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><kbd>F</kbd><kbd>G</kbd><kbd>H</kbd> (të bardhat), <kbd>W</kbd><kbd>E</kbd><kbd>T</kbd><kbd>Y</kbd><kbd>U</kbd> (të zezat)</p>
+<footer>Krijuar nga <strong>Erion Nezha</strong> — © 2026 · Piano origjinal: Elhamuddin Taheri</footer>
+</body>
+</html>
