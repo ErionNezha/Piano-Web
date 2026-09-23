@@ -1,0 +1,72 @@
+/* Created by Erion Nezha — © 2026 All rights reserved */
+/* Piano origjinal: Engineer Elhamuddin Taheri — stil i përshtatur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'kraash';
+    src: url('Kraash.ttf');
+}
+
+body {
+    background-color: #757362;
+}
+
+.container {
+    height: 400px;
+    width: 590px;
+    max-width: 96vw;
+    margin: auto;
+    margin-top: 60px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 1px 1px 9px 7px #470ddb;
+}
+
+.heading {
+    height: 150px;
+    width: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #587dc6;
+    padding-top: 5px;
+}
+
+#text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'kraash', cursive;
+    margin-top: 45px;
+}
+
+.keys {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    font-size: 0;
+}
+
+.key {
+    height: 250px;
+    width: calc(100% / 11);
+    display: inline-block;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.keyBlack {
+    background-color: black;
+}
+
+.keyWhite {
+    background-color: white;
+}
+
+.key.active-white { background-color: lightgray; }
+.key.active-black { background-color: gray; }
