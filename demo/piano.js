@@ -1,5 +1,5 @@
 /* Created by Erion Nezha — © 2026 All rights reserved */
-/* Piano origjinal: Engineer Elhamuddin Taheri (B.Sc Software Engineering, Kabul University)
+/* Piano origjinal: Erion Nezha (B.Sc Software Engineering, Kabul University)
    Demo e përshtatur: klikim + tastierë */
 
 // tingujt e tastes

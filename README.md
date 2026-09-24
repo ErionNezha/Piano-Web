@@ -20,8 +20,6 @@ Hap demo/index.html — kliko tastet ose përdor A,S,D,F,G,H,J (të bardha) dhe 
 ---
 Krijuar nga **Erion Nezha** — © 2026
 
-## ©️ Autori origjinal
-Piano origjinal (piano.html/css/js) është krijuar nga **Engineer Elhamuddin Taheri**
-(B.Sc Software Engineering, Kabul University). Demo-ja web është përshtatur nga
-Erion Nezha (shtuar: tastierë, footer, rregullim i rrugës së fontit) — kodi
-origjinal në `original/` është i paprekur.
+## ©️ Autori
+Piano i zhvilluar nga **Erion Nezha**.
+
